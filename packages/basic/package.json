@@ -1,18 +1,18 @@
 {
-  "name": "@sxzz/eslint-config-basic",
-  "version": "2.4.3",
+  "name": "@wang-qing/eslint-config-basic",
+  "version": "1.0.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "homepage": "https://github.com/sxzz/eslint-config#readme",
+  "homepage": "https://github.com/WangQing99/eslint-config#readme",
   "bugs": {
-    "url": "https://github.com/sxzz/eslint-config/issues"
+    "url": "https://github.com/WangQing99/eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sxzz/eslint-config.git"
+    "url": "git+https://github.com/WangQing99/eslint-config.git"
   },
-  "author": "三咲智子 <sxzz@sxzz.moe> (https://github.com/sxzz/)",
+  "author": "WQ <wq990217@gmail.com> (https://github.com/WangQing99/)",
   "files": [
     "index.js"
   ],

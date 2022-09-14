@@ -1,5 +1,10 @@
 {
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#372D0D",
+    "titleBar.activeBackground": "#4D3E12",
+    "titleBar.activeForeground": "#FDFBF5"
   }
 }

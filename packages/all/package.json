@@ -1,7 +1,7 @@
 {
-  "name": "@sxzz/eslint-config",
-  "version": "2.4.3",
-  "description": "三咲智子's ESLint config",
+  "name": "@wang-qing/eslint-config",
+  "version": "1.0.0",
+  "description": "WQ's ESLint config",
   "keywords": [
     "eslint",
     "config",
@@ -9,15 +9,15 @@
     "sxzz"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/sxzz/eslint-config#readme",
+  "homepage": "https://github.com/WangQing99/eslint-config#readme",
   "bugs": {
-    "url": "https://github.com/sxzz/eslint-config/issues"
+    "url": "https://github.com/WangQing99/eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sxzz/eslint-config.git"
+    "url": "git+https://github.com/WangQing99/eslint-config.git"
   },
-  "author": "三咲智子 <sxzz@sxzz.moe> (https://github.com/sxzz/)",
+  "author": "WQ <wq990217@gmail.com> (https://github.com/WangQing99/)",
   "files": [
     "index.js"
   ],
@@ -29,8 +29,8 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@sxzz/eslint-config-prettier": "workspace:*",
-    "@sxzz/eslint-config-vue": "workspace:*"
+    "@wang-qing/eslint-config-prettier": "workspace:*",
+    "@wang-qing/eslint-config-vue": "workspace:*"
   },
   "devDependencies": {
     "eslint": "^8.23.0"
