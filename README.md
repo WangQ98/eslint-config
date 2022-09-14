@@ -76,6 +76,35 @@ module.exports = {
 }
 ```
 
+### use problem solving
+
+#### 1. space indent
+
+```jsonc
+// setting.json
+{
+  "editor.tabSize": 2
+}
+```
+
+or
+
+create `.editorconfig` file
+Then install `EditorConfig for VS Code` Plugin in VSCode
+
+```yaml
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+quote_type = single
+```
+
 ## License
 
 MIT License © 2021-PRESENT [WQ](https://github.com/WangQing99)
