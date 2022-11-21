@@ -32,6 +32,19 @@ module.exports = {
 }
 ```
 
+or
+
+```jsonc
+// .eslintrc.json
+{
+  root: true,
+  extends: ['@wang-qing/eslint-config'],
+  rules: {
+    // Your custom rules
+  },
+}
+```
+
 ```jsonc
 // .prettierrc
 {
