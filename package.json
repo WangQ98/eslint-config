@@ -1,6 +1,6 @@
 {
-  "name": "@wang-qing/eslint-config-monorepo",
-  "version": "1.3.2",
+  "name": "@fzpt/eslint-config-monorepo",
+  "version": "2.0.0",
   "private": true,
   "license": "MIT",
   "author": "WQ <wq990217@gmail.com> (https://github.com/WangQing99/)",
@@ -9,7 +9,7 @@
     "release": "bumpp package.json packages/*/package.json && pnpm publish -r"
   },
   "devDependencies": {
-    "@wang-qing/eslint-config": "workspace:*",
+    "@fzpt/eslint-config": "workspace:*",
     "bumpp": "^8.2.1",
     "eslint": "^8.23.0",
     "typescript": "^4.8.2"

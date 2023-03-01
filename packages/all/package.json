@@ -1,6 +1,6 @@
 {
-  "name": "@wang-qing/eslint-config",
-  "version": "1.3.2",
+  "name": "@fzpt/eslint-config",
+  "version": "2.0.0",
   "description": "WQ's ESLint config",
   "keywords": [
     "eslint",
@@ -28,8 +28,8 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@wang-qing/eslint-config-prettier": "workspace:*",
-    "@wang-qing/eslint-config-vue": "workspace:*"
+    "@fzpt/eslint-config-prettier": "workspace:*",
+    "@fzpt/eslint-config-vue": "workspace:*"
   },
   "devDependencies": {
     "eslint": "^8.23.0"
