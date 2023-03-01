@@ -4,24 +4,24 @@ importers:
 
   .:
     specifiers:
-      '@wang-qing/eslint-config': workspace:*
+      '@fzpt/eslint-config': workspace:*
       bumpp: ^8.2.1
       eslint: ^8.23.0
       typescript: ^4.8.2
     devDependencies:
-      '@wang-qing/eslint-config': link:packages/all
+      '@fzpt/eslint-config': link:packages/all
       bumpp: 8.2.1
       eslint: 8.23.1
       typescript: 4.8.3
 
   packages/all:
     specifiers:
-      '@wang-qing/eslint-config-prettier': workspace:*
-      '@wang-qing/eslint-config-vue': workspace:*
+      '@fzpt/eslint-config-prettier': workspace:*
+      '@fzpt/eslint-config-vue': workspace:*
       eslint: ^8.23.0
     dependencies:
-      '@wang-qing/eslint-config-prettier': link:../prettier
-      '@wang-qing/eslint-config-vue': link:../vue
+      '@fzpt/eslint-config-prettier': link:../prettier
+      '@fzpt/eslint-config-vue': link:../vue
     devDependencies:
       eslint: 8.23.1
 
@@ -69,14 +69,14 @@ importers:
     specifiers:
       '@typescript-eslint/eslint-plugin': ^5.36.1
       '@typescript-eslint/parser': ^5.36.1
-      '@wang-qing/eslint-config-basic': workspace:*
+      '@fzpt/eslint-config-basic': workspace:*
       eslint: 8.23.0
       eslint-define-config: ^1.7.0
       typescript: ^4.8.2
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.37.0_ykzixrefwp6yjbbolxhna4mwuu
       '@typescript-eslint/parser': 5.37.0_itqs5654cmlnjraw6gjzqacppi
-      '@wang-qing/eslint-config-basic': link:../basic
+      '@fzpt/eslint-config-basic': link:../basic
       eslint-define-config: 1.7.0
       typescript: 4.8.3
     devDependencies:
@@ -84,13 +84,13 @@ importers:
 
   packages/vue:
     specifiers:
-      '@wang-qing/eslint-config-ts': workspace:*
+      '@fzpt/eslint-config-ts': workspace:*
       eslint: 8.23.0
       eslint-define-config: ^1.7.0
       eslint-plugin-vue: ^9.4.0
       local-pkg: ^0.4.2
     dependencies:
-      '@wang-qing/eslint-config-ts': link:../typescript
+      '@fzpt/eslint-config-ts': link:../typescript
       eslint-define-config: 1.7.0
       eslint-plugin-vue: 9.4.0_eslint@8.23.0
       local-pkg: 0.4.2
