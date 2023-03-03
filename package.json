@@ -1,6 +1,6 @@
 {
   "name": "@fbzn/eslint-config-monorepo",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
   "license": "MIT",
   "author": "WQ <wq990217@gmail.com> (https://github.com/WangQ98/)",
