@@ -1,16 +1,16 @@
-# @fzpt/eslint-config
+# @fbzn/eslint-config
 
 ESLint config for JavaScript, TypeScript, Vue 2, Vue 3, Prettier.
 
 ## Usage
 
 ```bash
-pnpm i -D @fzpt/eslint-config-basic # JavaScript only
+pnpm i -D @fbzn/eslint-config-basic # JavaScript only
 # Or yarn add -D / npm install -D
-pnpm i -D @fzpt/eslint-config-ts # JavaScript and TypeScript
-pnpm i -D @fzpt/eslint-config-vue # JavaScript, TypeScript and Vue 2/3 (Auto detect)
-pnpm i -D @fzpt/eslint-config-prettier # Prettier only
-pnpm i -D @fzpt/eslint-config # JavaScript, TypeScript, Vue 2/3 and Prettier
+pnpm i -D @fbzn/eslint-config-ts # JavaScript and TypeScript
+pnpm i -D @fbzn/eslint-config-vue # JavaScript, TypeScript and Vue 2/3 (Auto detect)
+pnpm i -D @fbzn/eslint-config-prettier # Prettier only
+pnpm i -D @fbzn/eslint-config # JavaScript, TypeScript, Vue 2/3 and Prettier
 ```
 
 ## Quick start
@@ -18,14 +18,14 @@ pnpm i -D @fzpt/eslint-config # JavaScript, TypeScript, Vue 2/3 and Prettier
 ### Vue 3
 
 ```bash
-pnpm i -D @fzpt/eslint-config
+pnpm i -D @fbzn/eslint-config
 ```
 
 ```javascript
 // .eslintrc.js
 module.exports = {
   root: true,
-  extends: ['@fzpt/eslint-config'],
+  extends: ['@fbzn/eslint-config'],
   rules: {
     // Your custom rules
   },
@@ -38,7 +38,7 @@ or
 // .eslintrc.json
 {
   root: true,
-  extends: ['@fzpt/eslint-config'],
+  extends: ['@fbzn/eslint-config'],
   rules: {
     // Your custom rules
   },

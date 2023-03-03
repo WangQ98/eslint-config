@@ -1,5 +1,5 @@
 {
-  "name": "@fzpt/eslint-config-vue",
+  "name": "@fbzn/eslint-config-vue",
   "version": "1.1.0",
   "description": "",
   "keywords": [],
@@ -30,7 +30,7 @@
     }
   },
   "dependencies": {
-    "@fzpt/eslint-config-ts": "workspace:*",
+    "@fbzn/eslint-config-ts": "workspace:*",
     "eslint-define-config": "^1.7.0",
     "eslint-plugin-vue": "^9.4.0",
     "local-pkg": "^0.4.2"
